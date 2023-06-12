@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <div class="scoreboard">
+            <div class="title">
+                <img src="images/title.png">
+            </div>
+            <div class="score">
+                <p>SCORE</p>
+                <h1>0</h1>
+            </div>
+        </div>
+        <div class="hands">
+            <div class="hand paper">
+                <img src="images/Paper.png" onclick = "pickUserHand('paper')"/>
+            </div>
+            <div class="hand scissors">
+                <img src = "images/Scissors.png" onclick = "pickUserHand('scissors')"/>
+            </div>
+            <div class="hand rock">
+                <img src="images/Rock.png" onclick = "pickUserHand('rock')"/>
+            </div>
+        </div>
+        <div class="contest">
+            <div class="userhand">
+                <h1>You Picked</h1>
+                <div class="handImageContainer">
+                    <img id = "userPickImage" src="images/Rock.png">
+                </div>
+            </div>
+            <div class="referee">
+                <div class="decision"><h1>YOU WIN!</h1>
+                </div>
+                <div class="newGame" onclick="restartGame()">PLAY AGAIN</div>
+            </div>
+            <div class="computerhand">
+                <h1>Computer Picked</h1>
+                <div class="handImageContainer">
+                    <img id = "ComputerPickImage" src="images/Scissors.png"
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
