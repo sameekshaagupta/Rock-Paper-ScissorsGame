@@ -3,32 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Rock Paper Scissors Game - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-      margin: 30px;
-    }
-    h1 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    h2 {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-    p {
-      margin-bottom: 10px;
-    }
-    code {
-      font-family: Consolas, monospace;
-      font-size: 14px;
-      background-color: #f1f1f1;
-      padding: 2px 4px;
-    }
-  </style>
-</head>
-<body>
+ 
   <h1>Rock Paper Scissors Game</h1>
   
   <h2>Description</h2>
@@ -75,7 +50,7 @@
 
   <h2>License</h2>
   <p>
-    This project is licensed under the <strong>MIT License</strong>. See the <code>LICENSE</code> file for more details.
+    This project is licensed under the <strong>MIT License</strong>. 
   </p>
 
   <h2>Acknowledgements</h2>
