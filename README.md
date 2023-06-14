@@ -23,7 +23,7 @@
     <li><strong>Visually appealing interface:</strong> The user interface is designed with attractive graphics and animations, enhancing the overall gaming experience.</li>
   </ul>
 
-  <h2>How to Play</h2>
+  <h2>How to Play?</h2>
   <p>
     To play the Rock Paper Scissors Game, follow these steps:
   </p>
