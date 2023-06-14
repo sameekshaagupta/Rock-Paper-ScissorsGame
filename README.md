@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Rock Paper Scissors Game - README</title>
+
  
   <h1>Rock Paper Scissors Game</h1>
   
